@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "transcription-extraction-from-video",
+  "title": "Transcription Extraction from Video",
+  "description": "Extract audio from YouTube/Instagram, transcribe, and generate Groq Q&A summary.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "input": "./input_schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "YouTube Transcript Extractor Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "youtube_url": {
+      "title": "YouTube URL",
+      "type": "string",
+      "description": "Enter YouTube video URL.",
+      "editor": "textfield",
+      "prefill": "https://www.youtube.com/watch?v=example"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string",
+      "description": "Select transcript language.",
+      "default": "en",
+      "enum": ["en", "hi", "es", "fr", "kn", "te", "ta", "ml", "mr", "gu", "pa"],
+      "editor": "select"
+    }
+  },
+  "required": ["youtube_url"]
+}

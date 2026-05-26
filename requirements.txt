@@ -1,0 +1,4 @@
+Flask==3.0.3
+youtube-transcript-api
+python-dotenv>=1.0.1
+apify>=1.8.1

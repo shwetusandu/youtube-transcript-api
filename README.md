@@ -1,2 +1,26 @@
-# youtube-transcript-api
-It extracts transcripts from YouTube videos using youtube-transcript-api and returns structured JSON output for automation workflows, AI pipelines, content processing, and integrations.
+# YouTube Transcript Extractor
+
+Extract transcripts from YouTube videos using youtube-transcript-api with structured JSON output and multi-language support.
+
+## Features
+
+- Extract YouTube transcripts
+- Multi-language support
+- JSON output
+- Apify-ready workflow
+
+## Input
+
+```json
+{
+  "youtube_url": "https://www.youtube.com/watch?v=H8Lyj2D_cWo",
+  "language": "hi"
+}
+
+## Output
+
+{
+  "video_id": "H8Lyj2D_cWo",
+  "language": "hi",
+  "transcription": "Transcript text..."
+}
