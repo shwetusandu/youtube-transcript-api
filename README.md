@@ -75,15 +75,18 @@ Use transcript output for:
 
 ```bash
 .
+├── actor 
+   ├── actor.json
+   └── input_schema.json
+├── .env.example 
+├── .gitignore
+├── apify.json.deprecated apify.json
 ├── app.py
+├── Dockerfile 
+├── log
 ├── main.py
-├── apify.json
-├── input_schema.json
-├── requirements.txt
-├── Dockerfile
-├── .env.example
 ├── README.md
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
